@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  margin: 0px
+}
+
+body{
+  background-image: url(foto/background.jpg);
+  background-size: cover;
+}
+
+.box-trasparente{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 1200px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  padding-top: 20px;
+  font-family: Tahoma, Verdana, sans-serif;
+  border-radius: 10px;
+}
+
+.conteiner{
+  width: 84%;
+  height: 100%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+/* HEADER! */
+
+header{
+  text-align: center;
+  padding-bottom: 6px;
+}
+
+header span{
+  color: #00dd00;
+  font-size: 30px;
+}
+
+header > img{
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* NAV! */
+
+nav{
+  text-align: center;
+  background-color: #00dd00;
+  height: 40px;
+}
+
+.buttoms-nav{
+  padding: 9px;
+}
+
+/* MAIN! */
+
+main span{
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+}
+
+main p{
+  color: rgba(255, 255, 255, 0.8);
+}
+
+main > div{
+  padding-top: 25px;
+}
+
+div.content div:last-child{
+  margin-top: 5px;
+}
+
+.carica-gino{
+  background-color: #f5b453;
+  border-radius: 5px;
+  width: 300px;
+  height: 20px;
+}
+
+.carica-mike{
+  background-color: #1ec31e;
+  border-radius: 5px;
+  width: 520px;
+  height: 20px;
+}
+
+.carica-fede{
+  background-color: #be4141;
+  border-radius: 5px;
+  width: 130px;
+  height: 20px;
+}
+
+.indirizzo{
+  padding: 5px;
+}
